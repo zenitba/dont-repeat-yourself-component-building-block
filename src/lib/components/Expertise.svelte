@@ -127,9 +127,7 @@
 <!-- Styles voor de Expertise-sectie -->
 <style>
   .expertise {
-    background-color: var(
-      --lg-bg
-    );
+    background-color: white;
     display: flex;
     flex-direction: column;
     position: relative;
