@@ -33,7 +33,6 @@
           class="expertise3"
           src="assets/Untitled4.png"
           alt="Illustratie klimaatadaptatie voor een groenere wereld"
-          loading="lazy"
           width="100px"
           height="100px"
         />
@@ -68,7 +67,6 @@
           class="expertise2"
           src="assets/Untitled3.png"
           alt="Illustratie waterkwaliteit en milieubehoud"
-          loading="lazy"
           width="100px"
           height="100px"
         />
@@ -103,7 +101,6 @@
           class="expertise2"
           src="assets/brainlogo.png"
           alt="Illustratie B-Rain, een innovatieve oplossing"
-          loading="lazy"
           width="100px"
           height="100px"
         />
@@ -130,7 +127,9 @@
 <!-- Styles voor de Expertise-sectie -->
 <style>
   .expertise {
-    background-color: white;
+    background-color: var(
+      --lg-bg
+    );
     display: flex;
     flex-direction: column;
     position: relative;
@@ -143,7 +142,7 @@
   .expertise-title {
     font-size: 1.5rem;
     color: var(
-      --spat
+      --darkblue
     );
     font-weight: 600;
     text-align: left;
