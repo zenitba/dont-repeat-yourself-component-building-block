@@ -1,9 +1,11 @@
 <script>
 </script>
 
+<!-- Expertise-sectie -->
 <section
   class="expertise section"
 >
+  <!-- Header van de expertise-sectie -->
   <header
     class="expertise-header"
   >
@@ -14,15 +16,17 @@
     </h2>
   </header>
 
+  <!-- Wrapper voor de expertise cards -->
   <div
     class="expertise__wrapper"
   >
+    <!-- Klimaatadaptatie card -->
     <div
       class="expertise__card"
     >
       <picture>
         <source
-          srcset="assets/Untitled4.png"
+          srcset="assets/Untitled4.webp"
           type="image/webp"
         />
         <img
@@ -51,12 +55,13 @@
       </a>
     </div>
 
+    <!-- Waterkwaliteit card -->
     <div
       class="expertise__card"
     >
       <picture>
         <source
-          srcset="assets/Untitled3.png"
+          srcset="assets/Untitled3.webp"
           type="image/webp"
         />
         <img
@@ -85,12 +90,13 @@
       </a>
     </div>
 
+    <!-- B-Rain card -->
     <div
       class="expertise__card"
     >
       <picture>
         <source
-          srcset="assets/brainlogo.png"
+          srcset="assets/brainlogo.webp"
           type="image/webp"
         />
         <img
@@ -121,6 +127,7 @@
   </div>
 </section>
 
+<!-- Styles voor de Expertise-sectie -->
 <style>
   .expertise {
     background-color: white;
@@ -203,12 +210,7 @@
 
   .expertise__card:nth-child(
       2
-    ) {
-    background-color: var(
-      --lg-bg
-    );
-  }
-
+    ),
   .expertise__card:nth-child(
       3
     ) {
@@ -256,6 +258,20 @@
       padding: 4rem
         8rem;
       gap: 3rem;
+    }
+  }
+  @media screen and (max-width: 1023px) {
+    .expertise-title {
+      text-align: center; /* Center the expertise title on smaller screens */
+    }
+
+    .expertise__wrapper {
+      flex-direction: column;
+      align-items: center; /* Center expertise cards on smaller screens */
+    }
+
+    .expertise-header {
+      margin-left: 0; /* Remove the left margin on smaller screens */
     }
   }
 </style>
