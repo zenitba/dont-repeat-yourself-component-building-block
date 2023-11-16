@@ -131,6 +131,7 @@
     display: flex;
     flex-direction: column;
     position: relative;
+    height: 100%;
   }
 
   .expertise-header {
@@ -138,7 +139,9 @@
   }
 
   .expertise-title {
-    font-size: 1.5rem;
+    font-size: var(
+      --h2-font-size
+    );
     color: var(
       --darkblue
     );
@@ -147,7 +150,9 @@
   }
 
   .expertise h3 {
-    font-size: 1.3rem;
+    font-size: var(
+      --h3-font-size
+    );
     color: var(
       --darkblue
     );
@@ -182,8 +187,11 @@
         205,
         0.3
       );
-    background-color: var(
-      --lg-bg
+    background-color: rgba(
+      0,
+      0,
+      0,
+      0.05
     );
     color: var(
       --darkblue
