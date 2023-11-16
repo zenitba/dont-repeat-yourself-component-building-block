@@ -127,7 +127,7 @@
 <!-- Styles voor de Expertise-sectie -->
 <style>
   .expertise {
-    background-color: white;
+    background-color: #f5f5f5;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -175,7 +175,7 @@
     justify-content: center;
     align-items: center;
     box-shadow: 0
-      4px 6px
+      8px 10px
       rgba(
         174,
         190,
