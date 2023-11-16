@@ -29,7 +29,6 @@
         alt="Illustratie klimaatadaptatie voor een groenere wereld"
         width="100"
         height="100"
-        loading="lazy"
       />
       <h3>
         Klimaatadaptatie
@@ -57,7 +56,6 @@
         alt="Illustratie waterkwaliteit en milieubehoud"
         width="100"
         height="100"
-        loading="lazy"
       />
       <h3>
         Waterkwaliteit
@@ -85,7 +83,6 @@
         alt="Illustratie B-Rain, een innovatieve oplossing"
         width="100"
         height="100"
-        loading="lazy"
       />
       <h3>
         B-Rain
