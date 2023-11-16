@@ -24,19 +24,13 @@
     <div
       class="expertise__card"
     >
-      <picture>
-        <source
-          srcset="assets/Untitled4.webp"
-          type="image/webp"
-        />
-        <img
-          class="expertise3"
-          src="assets/Untitled4.png"
-          alt="Illustratie klimaatadaptatie voor een groenere wereld"
-          width="100px"
-          height="100px"
-        />
-      </picture>
+      <img
+        src="assets/Untitled4.png"
+        alt="Illustratie klimaatadaptatie voor een groenere wereld"
+        width="100"
+        height="100"
+        loading="lazy"
+      />
       <h3>
         Klimaatadaptatie
       </h3>
@@ -58,19 +52,13 @@
     <div
       class="expertise__card"
     >
-      <picture>
-        <source
-          srcset="assets/Untitled3.webp"
-          type="image/webp"
-        />
-        <img
-          class="expertise2"
-          src="assets/Untitled3.png"
-          alt="Illustratie waterkwaliteit en milieubehoud"
-          width="100px"
-          height="100px"
-        />
-      </picture>
+      <img
+        src="assets/Untitled3.png"
+        alt="Illustratie waterkwaliteit en milieubehoud"
+        width="100"
+        height="100"
+        loading="lazy"
+      />
       <h3>
         Waterkwaliteit
       </h3>
@@ -92,19 +80,13 @@
     <div
       class="expertise__card"
     >
-      <picture>
-        <source
-          srcset="assets/brainlogo.webp"
-          type="image/webp"
-        />
-        <img
-          class="expertise2"
-          src="assets/brainlogo.png"
-          alt="Illustratie B-Rain, een innovatieve oplossing"
-          width="100px"
-          height="100px"
-        />
-      </picture>
+      <img
+        src="assets/brainlogo.png"
+        alt="Illustratie B-Rain, een innovatieve oplossing"
+        width="100"
+        height="100"
+        loading="lazy"
+      />
       <h3>
         B-Rain
       </h3>
@@ -159,14 +141,13 @@
   .expertise__wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    align-items: center;
+    gap: 3rem;
     padding: 4rem
       2rem;
-    gap: 3rem;
   }
 
   .expertise__card {
-    margin: 0 auto;
     height: 25em;
     width: 18em;
     border-radius: 4px;
@@ -188,8 +169,9 @@
     color: var(
       --darkblue
     );
-    transition: 0.3s
-      ease-in;
+    transition: transform
+      0.3s ease-in;
+    cursor: pointer;
   }
 
   .expertise__card
@@ -197,7 +179,6 @@
     width: 250px;
     padding-bottom: 2em;
   }
-
   .expertise__card
     .expertise2 {
     width: 250px;
@@ -224,7 +205,6 @@
       ease-in;
     cursor: pointer;
   }
-
   .button {
     display: inline-block;
     background-color: var(
